@@ -46,7 +46,7 @@ resolve('stable');
       'list-group-item-warning': server.status === 'offline',
       'list-group-item-danger': server.status === 'critical'
     };
-    onAddServer() {
+    onAddServer(){
       this.servers.push({
         instanceType: 'small',
         name: 'New Server',
